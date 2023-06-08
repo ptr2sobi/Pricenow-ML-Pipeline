@@ -47,8 +47,8 @@ git clone https://github.com/ptr2sobi/Pricenow-ML-Pipeline.git
 
   - **README.md**: This is a markdown file that provides an overview of the project and how to set up and run the project.
 
-  - **configs.yaml: This is a configuration file in YAML format that stores various configurations like hyperparameters for the model, features list, target variable, test size etc.
+  - **configs.yaml**: This is a configuration file in YAML format that stores various configurations like hyperparameters for the model, features list, target variable, test size etc.
 
-  - **main.py: This is the main script that is used to run the project. It uses the PipelineExecuter class to execute the pipeline.
+  - **main.py**: This is the main script that is used to run the project. It uses the PipelineExecuter class to execute the pipeline.
 
   - **requirements.txt**: This file contains all the Python dependencies that are required by the project. It's used by pip to install the dependencies.
