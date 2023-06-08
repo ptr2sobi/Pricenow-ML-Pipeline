@@ -25,6 +25,8 @@ git clone https://github.com/ptr2sobi/Pricenow-ML-Pipeline.git
 
 ### Code Overview
 
+ - **configs.yaml**: This is a configuration file in YAML format that stores various configurations like hyperparameters for the model, features list, target variable, test size etc.
+
   - **DataLoader.py****: This script contains a DataLoader class that is responsible for loading the dataset. It supports different file types and can be easily extended to support more.
 
   - **DataSplitter.py**: This script contains a DataSplitter class that splits the provided data into train and test sets based on the provided split ratio.
@@ -41,13 +43,9 @@ git clone https://github.com/ptr2sobi/Pricenow-ML-Pipeline.git
 
   - **ModelTrainer.py**: This script contains a ModelTrainer class that trains the model on the training dataset.
 
-  - **PipelineExecuter.py**: This script contains a PipelineExecuter class that executes the pipeline. It makes use of the classes mentioned above to perform various steps like data loading, preprocessing, feature engineering, model training, testing, and evaluation.
-
   - **Preprocessor.py**: This script contains a Preprocessor class that is responsible for preprocessing operations on the dataset.
 
-  - **README.md**: This is a markdown file that provides an overview of the project and how to set up and run the project.
-
-  - **configs.yaml**: This is a configuration file in YAML format that stores various configurations like hyperparameters for the model, features list, target variable, test size etc.
+ - **PipelineExecuter.py**: This script contains a PipelineExecuter class that executes the pipeline. It makes use of the all the classes  to perform orchestrate pipeline steps like data loading, preprocessing, feature engineering, model training, testing, and evaluation.
 
   - **main.py**: This is the main script that is used to run the project. It uses the PipelineExecuter class to execute the pipeline.
 
