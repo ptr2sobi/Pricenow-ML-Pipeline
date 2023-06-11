@@ -45,7 +45,7 @@ git clone https://github.com/ptr2sobi/Pricenow-ML-Pipeline.git
 
   - **Preprocessor.py**: This script contains a Preprocessor class that is responsible for preprocessing operations on the dataset.
 
- - **PipelineExecuter.py**: This script contains a PipelineExecuter class that executes the pipeline. It makes use of the all the classes  to perform orchestrate pipeline steps like data loading, preprocessing, feature engineering, model training, testing, and evaluation.
+ - **PipelineExecuter.py**: This script contains a PipelineExecuter class that executes the pipeline. It makes use of the all the classes  to orchestrate pipeline steps like data loading, preprocessing, feature engineering, model training, testing, and evaluation.
 
   - **main.py**: This is the main script that is used to run the project. It uses the PipelineExecuter class to execute the pipeline.
 
